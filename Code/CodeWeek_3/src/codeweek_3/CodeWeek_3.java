@@ -16,18 +16,6 @@ public class CodeWeek_3 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int[] a = new int[10];
-
-        for (int i = 0; i < 10; i++){
-            a[i] = 9 - i;
-            System.out.println(a[i]);
-        }
-        
-        for (int j = 0; j < 10; j++){
-            System.out.print(j + " " + a[j] + " ");
-            a[j] = a[a[j]];
-            System.out.println(a[j]);
-        }                     
-    }
-    
+               
+    }    
 }
